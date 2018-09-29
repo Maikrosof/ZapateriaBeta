@@ -38,4 +38,8 @@
         End
 
     End Sub
+
+    Private Sub BtnProducto_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnProducto.Click
+        Productos.Show()
+    End Sub
 End Class

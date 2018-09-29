@@ -1,2 +1,15 @@
 C:\Users\Maikro\Documents\GitHub\Zapateria\Zapateria\Zapateria\bin\Debug\Zapateria.exe.config
 C:\Users\Maikro\Documents\GitHub\Zapateria\Zapateria\bin\Debug\Zapateria.exe.config
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\bin\Debug\Zapateria.exe.config
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\bin\Debug\Zapateria.sdf
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\bin\Debug\Zapateria.exe
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\bin\Debug\Zapateria.pdb
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\bin\Debug\Zapateria.xml
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.AltasProductos.resources
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.Resources.resources
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.Principal.resources
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.Productos.resources
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.vbproj.GenerateResource.Cache
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.exe
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.xml
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.pdb
