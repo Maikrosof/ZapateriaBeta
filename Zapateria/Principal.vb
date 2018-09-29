@@ -38,4 +38,9 @@
         End
 
     End Sub
+
+    Private Sub BtnProveedor_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnProveedor.Click
+        Prov.Show()
+
+    End Sub
 End Class

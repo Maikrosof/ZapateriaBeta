@@ -1,2 +1,13 @@
 C:\Users\Maikro\Documents\GitHub\Zapateria\Zapateria\Zapateria\bin\Debug\Zapateria.exe.config
 C:\Users\Maikro\Documents\GitHub\Zapateria\Zapateria\bin\Debug\Zapateria.exe.config
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\bin\Debug\Zapateria.exe.config
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\bin\Debug\Zapateria.sdf
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\bin\Debug\Zapateria.exe
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\bin\Debug\Zapateria.pdb
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\bin\Debug\Zapateria.xml
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.Resources.resources
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.Principal.resources
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.vbproj.GenerateResource.Cache
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.exe
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.xml
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.pdb
