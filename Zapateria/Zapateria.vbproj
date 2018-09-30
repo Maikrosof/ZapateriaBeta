@@ -89,6 +89,24 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AltaLoc.Designer.vb">
+      <DependentUpon>AltaLoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AltaLoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltasProv.Designer.vb">
+      <DependentUpon>AltasProv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AltasProv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostrarLoc.Designer.vb">
+      <DependentUpon>MostrarLoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarLoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Principal.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +142,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AltaLoc.resx">
+      <DependentUpon>AltaLoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltasProv.resx">
+      <DependentUpon>AltasProv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarLoc.resx">
+      <DependentUpon>MostrarLoc.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -132,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prov.resx">
+      <DependentUpon>Prov.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

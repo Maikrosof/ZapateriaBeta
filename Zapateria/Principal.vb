@@ -27,7 +27,7 @@
 
     End Sub
 
-    Private Sub ClientesBindingNavigatorSaveItem_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ClientesBindingNavigatorSaveItem.Click
+    Private Sub ClientesBindingNavigatorSaveItem_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Me.Validate()
         Me.ClientesBindingSource.EndEdit()
         Me.TableAdapterManager.UpdateAll(Me.ZapateriaDataSet)
@@ -41,6 +41,25 @@
 
     Private Sub BtnProveedor_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnProveedor.Click
         Prov.Show()
+
+    End Sub
+
+    Private Sub AgregarModificarLocalidadesToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+
+    End Sub
+
+    Private Sub ModificarLocalidadesToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+    End Sub
+
+    Private Sub AgregarLocalidadesToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AgregarLocalidadesToolStripMenuItem.Click
+        AltaLoc.Show()
+
+    End Sub
+
+    Private Sub MostrarLocalidadesToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MostrarLocalidadesToolStripMenuItem.Click
+        MostrarLoc.Show()
 
     End Sub
 End Class

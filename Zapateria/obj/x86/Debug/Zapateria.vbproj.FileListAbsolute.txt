@@ -11,3 +11,7 @@ C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Za
 C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.exe
 C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.xml
 C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.pdb
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.AltasProv.resources
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.Prov.resources
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.AltaLoc.resources
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.MostrarLoc.resources
