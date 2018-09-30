@@ -27,7 +27,7 @@
 
     End Sub
 
-    Private Sub ClientesBindingNavigatorSaveItem_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ClientesBindingNavigatorSaveItem.Click
+    Private Sub ClientesBindingNavigatorSaveItem_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Me.Validate()
         Me.ClientesBindingSource.EndEdit()
         Me.TableAdapterManager.UpdateAll(Me.ZapateriaDataSet)
@@ -36,6 +36,10 @@
 
     Private Sub BtnSalir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnSalir.Click
         End
+
+    End Sub
+
+    Private Sub BtnProducto_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnProducto.Click
 
     End Sub
 End Class

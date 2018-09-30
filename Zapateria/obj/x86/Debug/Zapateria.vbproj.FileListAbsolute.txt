@@ -1,2 +1,3 @@
 C:\Users\Maikro\Documents\GitHub\Zapateria\Zapateria\Zapateria\bin\Debug\Zapateria.exe.config
 C:\Users\Maikro\Documents\GitHub\Zapateria\Zapateria\bin\Debug\Zapateria.exe.config
+C:\Users\Maikro\Documents\GitHub\Zapateria\ZapateriaBeta\Zapateria\bin\Debug\Zapateria.exe.config

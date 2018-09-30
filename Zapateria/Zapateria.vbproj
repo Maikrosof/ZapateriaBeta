@@ -111,6 +111,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ProductosPrincipal.Designer.vb">
+      <DependentUpon>ProductosPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ZapateriaDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -126,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosPrincipal.resx">
+      <DependentUpon>ProductosPrincipal.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
