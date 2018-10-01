@@ -101,6 +101,12 @@
     <Compile Include="AltasProv.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ModElimLoc.Designer.vb">
+      <DependentUpon>ModElimLoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModElimLoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MostrarLoc.Designer.vb">
       <DependentUpon>MostrarLoc.vb</DependentUpon>
     </Compile>
@@ -147,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AltasProv.resx">
       <DependentUpon>AltasProv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModElimLoc.resx">
+      <DependentUpon>ModElimLoc.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MostrarLoc.resx">
       <DependentUpon>MostrarLoc.vb</DependentUpon>

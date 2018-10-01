@@ -49,12 +49,11 @@ Partial Class Principal
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.MovimientosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConfiguracionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LocalidadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AgregarLocalidadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModificarLocalidadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EliminarLocalidadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MostrarLocalidadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.ClientesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ZapateriaDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EmpleadosBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -231,15 +230,9 @@ Partial Class Principal
         Me.ConfiguracionesToolStripMenuItem.Size = New System.Drawing.Size(106, 20)
         Me.ConfiguracionesToolStripMenuItem.Text = "Configuraciones"
         '
-        'AyudaToolStripMenuItem
-        '
-        Me.AyudaToolStripMenuItem.Name = "AyudaToolStripMenuItem"
-        Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
-        Me.AyudaToolStripMenuItem.Text = "Ayuda"
-        '
         'LocalidadesToolStripMenuItem
         '
-        Me.LocalidadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AgregarLocalidadesToolStripMenuItem, Me.ModificarLocalidadesToolStripMenuItem, Me.EliminarLocalidadesToolStripMenuItem, Me.MostrarLocalidadesToolStripMenuItem})
+        Me.LocalidadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AgregarLocalidadesToolStripMenuItem, Me.ModificarLocalidadesToolStripMenuItem, Me.MostrarLocalidadesToolStripMenuItem})
         Me.LocalidadesToolStripMenuItem.Name = "LocalidadesToolStripMenuItem"
         Me.LocalidadesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.LocalidadesToolStripMenuItem.Text = "Localidades"
@@ -247,26 +240,26 @@ Partial Class Principal
         'AgregarLocalidadesToolStripMenuItem
         '
         Me.AgregarLocalidadesToolStripMenuItem.Name = "AgregarLocalidadesToolStripMenuItem"
-        Me.AgregarLocalidadesToolStripMenuItem.Size = New System.Drawing.Size(190, 22)
+        Me.AgregarLocalidadesToolStripMenuItem.Size = New System.Drawing.Size(238, 22)
         Me.AgregarLocalidadesToolStripMenuItem.Text = "Agregar Localidades"
         '
         'ModificarLocalidadesToolStripMenuItem
         '
         Me.ModificarLocalidadesToolStripMenuItem.Name = "ModificarLocalidadesToolStripMenuItem"
-        Me.ModificarLocalidadesToolStripMenuItem.Size = New System.Drawing.Size(190, 22)
-        Me.ModificarLocalidadesToolStripMenuItem.Text = "Modificar Localidades"
-        '
-        'EliminarLocalidadesToolStripMenuItem
-        '
-        Me.EliminarLocalidadesToolStripMenuItem.Name = "EliminarLocalidadesToolStripMenuItem"
-        Me.EliminarLocalidadesToolStripMenuItem.Size = New System.Drawing.Size(190, 22)
-        Me.EliminarLocalidadesToolStripMenuItem.Text = "Eliminar Localidades"
+        Me.ModificarLocalidadesToolStripMenuItem.Size = New System.Drawing.Size(238, 22)
+        Me.ModificarLocalidadesToolStripMenuItem.Text = "Modificar/Eliminar Localidades"
         '
         'MostrarLocalidadesToolStripMenuItem
         '
         Me.MostrarLocalidadesToolStripMenuItem.Name = "MostrarLocalidadesToolStripMenuItem"
-        Me.MostrarLocalidadesToolStripMenuItem.Size = New System.Drawing.Size(190, 22)
+        Me.MostrarLocalidadesToolStripMenuItem.Size = New System.Drawing.Size(238, 22)
         Me.MostrarLocalidadesToolStripMenuItem.Text = "MostrarLocalidades"
+        '
+        'AyudaToolStripMenuItem
+        '
+        Me.AyudaToolStripMenuItem.Name = "AyudaToolStripMenuItem"
+        Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
+        Me.AyudaToolStripMenuItem.Text = "Ayuda"
         '
         'Principal
         '
@@ -327,7 +320,6 @@ Partial Class Principal
     Friend WithEvents LocalidadesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AgregarLocalidadesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ModificarLocalidadesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EliminarLocalidadesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AyudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MostrarLocalidadesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 

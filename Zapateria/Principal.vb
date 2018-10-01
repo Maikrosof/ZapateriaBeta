@@ -62,4 +62,9 @@
         MostrarLoc.Show()
 
     End Sub
+
+    Private Sub ModificarLocalidadesToolStripMenuItem_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ModificarLocalidadesToolStripMenuItem.Click
+        ModElimLoc.Show()
+
+    End Sub
 End Class
