@@ -34,6 +34,8 @@ Partial Class BuscarProv
         Me.ProveedoresBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.ProveedoresTableAdapter = New Zapateria.ZapateriaDataSetTableAdapters.ProveedoresTableAdapter()
         Me.TableAdapterManager = New Zapateria.ZapateriaDataSetTableAdapters.TableAdapterManager()
+        Me.BtnBuscar = New System.Windows.Forms.Button()
+        Me.BtnVolver = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
@@ -41,8 +43,6 @@ Partial Class BuscarProv
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.BtnBuscar = New System.Windows.Forms.Button()
-        Me.BtnVolver = New System.Windows.Forms.Button()
         ID_ProveedorLabel = New System.Windows.Forms.Label()
         ID_LocalidadLabel = New System.Windows.Forms.Label()
         Razon_SocialLabel = New System.Windows.Forms.Label()
@@ -53,32 +53,6 @@ Partial Class BuscarProv
         CType(Me.ZapateriaDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ProveedoresBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'ZapateriaDataSet
-        '
-        Me.ZapateriaDataSet.DataSetName = "ZapateriaDataSet"
-        Me.ZapateriaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'ProveedoresBindingSource
-        '
-        Me.ProveedoresBindingSource.DataMember = "Proveedores"
-        Me.ProveedoresBindingSource.DataSource = Me.ZapateriaDataSet
-        '
-        'ProveedoresTableAdapter
-        '
-        Me.ProveedoresTableAdapter.ClearBeforeFill = True
-        '
-        'TableAdapterManager
-        '
-        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
-        Me.TableAdapterManager.ClientesTableAdapter = Nothing
-        Me.TableAdapterManager.EmpleadosTableAdapter = Nothing
-        Me.TableAdapterManager.LocalidadTableAdapter = Nothing
-        Me.TableAdapterManager.MarcasTableAdapter = Nothing
-        Me.TableAdapterManager.ProductosTableAdapter = Nothing
-        Me.TableAdapterManager.ProveedoresTableAdapter = Me.ProveedoresTableAdapter
-        Me.TableAdapterManager.UpdateOrder = Zapateria.ZapateriaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
-        Me.TableAdapterManager.VentasTableAdapter = Nothing
         '
         'ID_ProveedorLabel
         '
@@ -143,6 +117,50 @@ Partial Class BuscarProv
         TelefonoLabel.TabIndex = 13
         TelefonoLabel.Text = "Telefono:"
         '
+        'ZapateriaDataSet
+        '
+        Me.ZapateriaDataSet.DataSetName = "ZapateriaDataSet"
+        Me.ZapateriaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'ProveedoresBindingSource
+        '
+        Me.ProveedoresBindingSource.DataMember = "Proveedores"
+        Me.ProveedoresBindingSource.DataSource = Me.ZapateriaDataSet
+        '
+        'ProveedoresTableAdapter
+        '
+        Me.ProveedoresTableAdapter.ClearBeforeFill = True
+        '
+        'TableAdapterManager
+        '
+        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
+        Me.TableAdapterManager.ClientesTableAdapter = Nothing
+        Me.TableAdapterManager.EmpleadosTableAdapter = Nothing
+        Me.TableAdapterManager.LocalidadTableAdapter = Nothing
+        Me.TableAdapterManager.MarcasTableAdapter = Nothing
+        Me.TableAdapterManager.ProductosTableAdapter = Nothing
+        Me.TableAdapterManager.ProveedoresTableAdapter = Me.ProveedoresTableAdapter
+        Me.TableAdapterManager.UpdateOrder = Zapateria.ZapateriaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        Me.TableAdapterManager.VentasTableAdapter = Nothing
+        '
+        'BtnBuscar
+        '
+        Me.BtnBuscar.Location = New System.Drawing.Point(289, 54)
+        Me.BtnBuscar.Name = "BtnBuscar"
+        Me.BtnBuscar.Size = New System.Drawing.Size(75, 52)
+        Me.BtnBuscar.TabIndex = 21
+        Me.BtnBuscar.Text = "Buscar"
+        Me.BtnBuscar.UseVisualStyleBackColor = True
+        '
+        'BtnVolver
+        '
+        Me.BtnVolver.Location = New System.Drawing.Point(289, 175)
+        Me.BtnVolver.Name = "BtnVolver"
+        Me.BtnVolver.Size = New System.Drawing.Size(75, 52)
+        Me.BtnVolver.TabIndex = 22
+        Me.BtnVolver.Text = "Volver"
+        Me.BtnVolver.UseVisualStyleBackColor = True
+        '
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(122, 51)
@@ -192,24 +210,6 @@ Partial Class BuscarProv
         Me.TextBox7.Size = New System.Drawing.Size(100, 20)
         Me.TextBox7.TabIndex = 20
         '
-        'BtnBuscar
-        '
-        Me.BtnBuscar.Location = New System.Drawing.Point(289, 54)
-        Me.BtnBuscar.Name = "BtnBuscar"
-        Me.BtnBuscar.Size = New System.Drawing.Size(75, 52)
-        Me.BtnBuscar.TabIndex = 21
-        Me.BtnBuscar.Text = "Buscar"
-        Me.BtnBuscar.UseVisualStyleBackColor = True
-        '
-        'BtnVolver
-        '
-        Me.BtnVolver.Location = New System.Drawing.Point(289, 175)
-        Me.BtnVolver.Name = "BtnVolver"
-        Me.BtnVolver.Size = New System.Drawing.Size(75, 52)
-        Me.BtnVolver.TabIndex = 22
-        Me.BtnVolver.Text = "Volver"
-        Me.BtnVolver.UseVisualStyleBackColor = True
-        '
         'BuscarProv
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -243,6 +243,8 @@ Partial Class BuscarProv
     Friend WithEvents ProveedoresBindingSource As System.Windows.Forms.BindingSource
     Friend WithEvents ProveedoresTableAdapter As Zapateria.ZapateriaDataSetTableAdapters.ProveedoresTableAdapter
     Friend WithEvents TableAdapterManager As Zapateria.ZapateriaDataSetTableAdapters.TableAdapterManager
+    Friend WithEvents BtnBuscar As System.Windows.Forms.Button
+    Friend WithEvents BtnVolver As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
@@ -250,6 +252,4 @@ Partial Class BuscarProv
     Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
-    Friend WithEvents BtnBuscar As System.Windows.Forms.Button
-    Friend WithEvents BtnVolver As System.Windows.Forms.Button
 End Class

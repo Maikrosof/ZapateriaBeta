@@ -67,4 +67,9 @@
         ModElimLoc.Show()
 
     End Sub
+
+    Private Sub BtnCliente_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnCliente.Click
+        Client.Show()
+
+    End Sub
 End Class
