@@ -27,6 +27,7 @@ Partial Class Principal_Producto
         Me.ProductosBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.ProductosTableAdapter = New Zapateria.ZapateriaDataSetTableAdapters.ProductosTableAdapter()
         Me.TableAdapterManager = New Zapateria.ZapateriaDataSetTableAdapters.TableAdapterManager()
+        Me.MarcasTableAdapter = New Zapateria.ZapateriaDataSetTableAdapters.MarcasTableAdapter()
         Me.ProductosDataGridView = New System.Windows.Forms.DataGridView()
         Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -38,7 +39,6 @@ Partial Class Principal_Producto
         Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.BtnAgregar = New System.Windows.Forms.Button()
         Me.MarcasBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.MarcasTableAdapter = New Zapateria.ZapateriaDataSetTableAdapters.MarcasTableAdapter()
         Me.BtnEliminar = New System.Windows.Forms.Button()
         Me.BtnModificar = New System.Windows.Forms.Button()
         Me.BtnBuscar = New System.Windows.Forms.Button()
@@ -74,6 +74,10 @@ Partial Class Principal_Producto
         Me.TableAdapterManager.ProveedoresTableAdapter = Nothing
         Me.TableAdapterManager.UpdateOrder = Zapateria.ZapateriaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
         Me.TableAdapterManager.VentasTableAdapter = Nothing
+        '
+        'MarcasTableAdapter
+        '
+        Me.MarcasTableAdapter.ClearBeforeFill = True
         '
         'ProductosDataGridView
         '
@@ -148,10 +152,6 @@ Partial Class Principal_Producto
         '
         Me.MarcasBindingSource.DataMember = "Marcas"
         Me.MarcasBindingSource.DataSource = Me.ZapateriaDataSet
-        '
-        'MarcasTableAdapter
-        '
-        Me.MarcasTableAdapter.ClearBeforeFill = True
         '
         'BtnEliminar
         '

@@ -50,4 +50,9 @@
     Private Sub ID_MarcaTextBox_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ID_MarcaTextBox.TextChanged
 
     End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        Close()
+
+    End Sub
 End Class
