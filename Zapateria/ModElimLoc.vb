@@ -17,6 +17,7 @@
 
         Dim fila, CodConsulta, aux As Integer
         CodConsulta = InputBox("Ingrese la ID de la Localidad")
+
         'podria ir lo de vacio
         fila = Me.LocalidadBindingSource.Find("ID_Localidad", CodConsulta)
         If fila = -1 Then
@@ -34,7 +35,7 @@
                 Me.LocalidadTableAdapter.Fill(Me.ZapateriaDataSet.Localidad) 'para actualizar en el otro formulario
             End If
         End If
-   
+
     End Sub
 
     Private Sub BtnPrincipio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnPrincipio.Click

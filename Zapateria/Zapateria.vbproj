@@ -101,6 +101,12 @@
     <Compile Include="AltasProv.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="BuscarProv.Designer.vb">
+      <DependentUpon>BuscarProv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarProv.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ModElimLoc.Designer.vb">
       <DependentUpon>ModElimLoc.vb</DependentUpon>
     </Compile>
@@ -153,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AltasProv.resx">
       <DependentUpon>AltasProv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarProv.resx">
+      <DependentUpon>BuscarProv.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModElimLoc.resx">
       <DependentUpon>ModElimLoc.vb</DependentUpon>

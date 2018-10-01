@@ -16,3 +16,4 @@ C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Za
 C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.AltaLoc.resources
 C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.MostrarLoc.resources
 C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.ModElimLoc.resources
+C:\Users\Vanina Ariño\Desktop\Zap Beta\ZapateriaBeta\Zapateria\obj\x86\Debug\Zapateria.BuscarProv.resources

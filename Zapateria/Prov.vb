@@ -32,4 +32,42 @@
         Me.ProveedoresBindingSource.MoveLast()
 
     End Sub
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        AltasProv.Show()
+
+    End Sub
+
+    Private Sub BtnVolver_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnVolver.Click
+        Close()
+
+    End Sub
+
+    Private Sub BtnEliminar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnEliminar.Click
+
+        Dim fila, CodConsulta, aux As Integer
+        CodConsulta = InputBox("Ingrese el CUIT del Proveedor")
+        'podria ir lo de vacio
+        fila = Me.ProveedoresBindingSource.Find("CUIT", CodConsulta)
+        If fila = -1 Then
+            'no lo encontró
+            MsgBox("No se encontró el CUIT del Proveedor")
+        Else
+            'lo encontró
+            Me.ProveedoresBindingSource.Position = fila ' muevo el puntero a la pocision encontrada
+            aux = MsgBox("Quiere eliminar al proveedor? " & CodConsulta)
+            If aux = 1 Then
+                'apreto si
+                Me.ProveedoresBindingSource.RemoveCurrent()
+                Me.ProveedoresBindingSource.EndEdit()
+                Me.TableAdapterManager.UpdateAll(Me.ZapateriaDataSet) 'guardo en el disco
+                Me.ProveedoresTableAdapter.Fill(Me.ZapateriaDataSet.Proveedores) 'para actualizar en el otro formulario
+            End If
+        End If
+
+    End Sub
+
+    Private Sub BtnBuscar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnBuscar.Click
+        BuscarProv.Show()
+    End Sub
 End Class
